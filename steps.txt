@@ -1,0 +1,15 @@
+Steps To Perform Push Opration
+Open your folder in terminal.(cd 245122748022)
+ls(to see list of files in our directory)
+git init
+if git not available(sudo apt install git)
+after installing(git init)
+git status
+git add .
+git status
+git commit -m "First Commit"
+git config --global user.email "your@example.com"
+git config --global user.name "your name"
+git commit -m "First Commit"
+git remote add origin "URL of Repository"
+git push origin master
